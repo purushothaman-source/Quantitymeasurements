@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;;
+}
+
+.quantum{
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.history{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+#welcome{
+    text-transform: capitalize;
+    font-size: 33px;    
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    color: #F5F6FA;
+
+}
+.typebody{
+    background-color: #F5F6FA;
+    height: 100%;
+}
+.choosebody{
+    padding-top:  25px; 
+    padding-left: 20%;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.cardbody{
+    margin: 0px 27%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box1,.box2,.box3{
+    margin: 5% 0px;
+    width: 150px;
+    height:150px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+.box1 img{
+    content: url("../assets/scalebw.svg");
+}
+.box1:hover{
+    background-color:#FFEEF0;
+    border-color: #FD5160;    
+}
+.box1:hover img{
+    content: url("../assets/scale.svg");
+}
+
+.box2 img{
+    content: url("../assets/hot\ \(1\).svg");
+}
+.box2:hover{
+    background-color:#FFEEF0;
+    border-color: #FD5160;    
+}
+.box2:hover img{
+    content: url("../assets/hotcolour.svg");
+}
+.box3 img{
+    content: url("../assets/beaker.svg");
+}
+.box3:hover{
+    background-color: #E8DDFF;
+    border-color: #7224FF;
+}
+.box3:hover img{
+    content: url("../assets/beakercolour.svg");
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 10%;
+    text-transform: capitalize;
+}
