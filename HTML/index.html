@@ -8,7 +8,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/quantitymeasurements.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="../javascript/converter.js"></script>
 </head>
 
 <body>
@@ -25,33 +24,35 @@
             choose type</div>
         <div class="cardbody">
             <div class="box1 ">
-                <img>
+                <img id="image1">
                 length
             </div>
             <div class="box2">
-                <img>
+                <img id="image2">
                 temperature
             </div>
             <div class="box3">
-                <img>
+                <img  id="image3">
                 volume
             </div>
         </div>
+       
         <div class="form">
+        <div class="from">
             <h3>from</h3>
+            <input type="number" id="input">
+            <select id="select">
+            </select>
+        </div>
+        <div class="to">
             <h4>to</h4>
+            <input type="number" id="result">
+            <select id="select1">
+            </select>
         </div>
-        <div class="form">
-            <input type="number">
-            <input type="number">
-        </div>
-        <div class="form">
-        <select id="select">
-        </select>
-        <select id="select">
-        </select>
         </div>
     </div>
+    <script src="../javascript/converter.js"></script>
 
 </body>
 
